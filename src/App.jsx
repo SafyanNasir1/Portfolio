@@ -44,7 +44,7 @@ function App() {
           <About />
         </div>
         <div id="portfolio">
-          <Port />
+          <Port/>
         </div>
         <div id="contact">
           <Contact />

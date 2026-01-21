@@ -1,10 +1,9 @@
   import React from "react";
   import { motion } from "framer-motion";
 
-  // Project images
-  import hotel from "../../assets/hotel.png";
-  import matias from "../../assets/matias.png";
-  import digital from "../../assets/digital.png";
+  import Hotel from "../../assets/hotel.PNG";
+  import Matias from "../../assets/matias.PNG";
+  import Digital from "../../assets/digital.PNG";
 
   const projects = [
     {
@@ -12,7 +11,7 @@
       description:
         "A full-stack hotel booking web application that allows users to browse hotels, check availability, and make reservations.",
       tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-      image: hotel,
+      image: Hotel,
       live: "#",
       github: "https://github.com/SafyanNasir1/Final-Project",
     },
@@ -21,14 +20,14 @@
       description:
         "Frontend development of Matias' website using React, HTML, and CSS, with a clean and responsive design.",
       tech: ["Html", "CSS", "React"],
-      image: matias,
+      image: Matias,
     },
     {
       title: "Personal Digital Marketing Website",
       description:
         "Frontend development of Digital Marketing Agency' website using React, HTML, and CSS.",
       tech: ["HTML", "CSS", "JavaScript", "React"],
-      image: digital,
+      image: Digital,
     },
   ];
 
