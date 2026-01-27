@@ -52,7 +52,7 @@ const About = () => {
           <div className="relative w-[280px] h-[280px] md:w-[350px] md:h-[400px] rounded-[100%_100%_0_0] bg-[#1b1b1b] shadow-[0_0_30px_rgba(148,148,148,0.4)]">
             <img
               // src={me}
-              alt="profile"
+              // alt="profile"
               className="absolute bottom-[-5px] left-1/2 -translate-x-1/2 h-[120%] md:h-[130%] w-auto object-cover"
             />
           </div>
@@ -66,7 +66,7 @@ const About = () => {
           className="mt-10 md:mt-0 md:ml-10 md:w-2/3"
         >
           <div className="text-white text-lg md:text-xl space-y-4 font-medium">
-            <p>
+            {/* <p>
               Hi, I'm{" "}
               <span className="font-bold text-orange-500">Safyan Nasir</span> —
               a MERN Stack Developer passionate about turning{" "}
@@ -96,6 +96,52 @@ const About = () => {
                 innovative digital experiences
               </span>{" "}
               that make a difference!
+            </p> */}
+            <p>
+              Hi, I'm{" "}
+              <span className="font-bold text-orange-500">Safyan Nasir</span> —
+              a <span className="font-semibold">MERN Stack Developer</span>{" "}
+              passionate about turning{" "}
+              <span className="font-semibold">
+                creative ideas into responsive and user-friendly web
+                applications
+              </span>
+              .
+            </p>
+
+            <p>
+              I have hands-on experience with{" "}
+              <span className="font-semibold">
+                MongoDB, Express.js, React, and Node.js
+              </span>
+              , building full-stack applications that are{" "}
+              <span className="font-semibold">
+                efficient, visually engaging, and impactful
+              </span>
+              .
+            </p>
+
+            <p>
+              I completed my internship at{" "}
+              <span className="font-semibold text-orange-500">WWAH.ai</span>, where I worked on
+              real-world development projects and strengthened my practical
+              skills. Currently, I am working with{" "}
+              <span className="font-semibold">Worldwide Admission Hub</span>,
+              developing web solutions that help{" "}
+              <span className="font-semibold">
+                international students with university admissions and visa
+                processes
+              </span>
+              .
+            </p>
+
+            <p>
+              I'm constantly learning new technologies and enjoy solving
+              real-world problems through code. Let's work together to create{" "}
+              <span className="font-bold text-orange-500">
+                innovative digital experiences
+              </span>{" "}
+              that truly make a difference!
             </p>
 
             {/* CV Button */}

@@ -3,7 +3,7 @@ import insta from "../../assets/instagram.svg";
 import linkdin from "../../assets/linkdin.svg";
 import world from "../../assets/world.svg";
 import be from "../../assets/be.svg";
-// import me from "../../assets/me.png";
+// import me from "../../assets/.png";
 import cv from "../../assets/my-cv.pdf";
 import CountUp from "react-countup";
 import { AnimatePresence } from "framer-motion";
@@ -144,8 +144,8 @@ const Home = () => {
           <div className="relative w-[280px] h-[280px] md:w-[450px] md:h-[450px] rounded-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(148,148,148,0.4)]">
             <img
               // src={me}
-              alt="profile"
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[360px] md:h-[620px] object-contain"
+              // alt="profile"
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[360px] md:h-[520px] object-contain rounded-[40px]"
             />
           </div>
         </motion.div>

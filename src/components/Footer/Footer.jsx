@@ -242,7 +242,7 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          Designed by M. Safyan Nasir as a Developer.
+          Designed & Developed by M. Safyan Nasir
         </motion.p>
       </div>
     </footer>
