@@ -220,7 +220,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-3">
           <img src={phone} alt="" />
-          <p>+92 054489802</p>
+          <p>+92 03054489802</p>
         </div>
       </div>
       {/* Animated Line */}
