@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/code.png";
 import insta from "../../assets/instagram.svg";
 import linkdin from "../../assets/linkdin.svg";
 import mail from "../../assets/mail.svg";
@@ -37,7 +37,7 @@ const Footer = () => {
       {/* Logo */}
       <div className="flex justify-center mb-6">
         <motion.img
-          src="./public/code.png"
+          src={logo}
           alt="Logo"
           className="w-16 h-16 rounded-full"
           initial={{ scale: 0 }}

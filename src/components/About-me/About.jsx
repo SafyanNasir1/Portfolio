@@ -2,7 +2,7 @@ import React from "react";
 // import me from "../../assets/me.jpg";
 import cv from "../../assets/my-cv.pdf";
 import { motion } from "framer-motion";
-
+import me from "../../assets/me.png";
 import html from "../../assets/html-5.png";
 import js from "../../assets/js.png";
 import reactIcon from "../../assets/react.svg";
@@ -51,7 +51,7 @@ const About = () => {
         >
           <div className="relative w-[280px] h-[280px] md:w-[350px] md:h-[400px] rounded-t-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(248,108,0,0.4)] overflow-hidden">
             <img
-              src="./public/me.png"
+              src={me}
               alt="profile"
               className="absolute left-1/13 w-auto h-[150%] md:h-[140%] object-cover"
             />

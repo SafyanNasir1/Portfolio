@@ -3,6 +3,7 @@ import insta from "../../assets/instagram.svg";
 import linkdin from "../../assets/linkdin.svg";
 import cv from "../../assets/my-cv.pdf";
 import CountUp from "react-countup";
+import me from "../../assets/me.png"
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -145,7 +146,7 @@ const Home = () => {
         >
           <div className="relative w-[280px] h-[280px] md:w-[450px] md:h-[450px] rounded-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(248,108,0,0.4)] overflow-hidden">
             <img
-              src="./public/me.png"
+              src={me}
               alt="profile"
               className="w-auto h-[500px] ml-5 object-cover overflow-scroll rounded-full"
             />

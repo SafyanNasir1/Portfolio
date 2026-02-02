@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/code.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="w-[70px] h-[70px] rounded-full"
-          src="./public/code.png"
+          src={logo}
           alt="logo"
         />
 
