@@ -20,15 +20,15 @@ const Navbar = () => {
     }`;
 
   return (
-    <div className="h-[180px] relative z-50">
+    <div className="h-[100px] md:h-[180px] relative z-50">
       <div className="flex mt-9 gap-2.5 justify-around items-center relative z-50">
         {/* Logo */}
         <motion.img
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="w-[50px] h-[50px] rounded-full"
-          src={logo}
+          className="w-[70px] h-[70px] rounded-full"
+          src="./public/code.png"
           alt="logo"
         />
 

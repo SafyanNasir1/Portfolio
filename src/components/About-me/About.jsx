@@ -49,11 +49,11 @@ const About = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mt-10 md:mt-0 md:w-1/3 flex justify-center"
         >
-          <div className="relative w-[280px] h-[280px] md:w-[350px] md:h-[400px] rounded-[100%_100%_0_0] bg-[#1b1b1b] shadow-[0_0_30px_rgba(148,148,148,0.4)]">
+          <div className="relative w-[280px] h-[280px] md:w-[350px] md:h-[400px] rounded-t-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(248,108,0,0.4)] overflow-hidden">
             <img
-              // src={me}
-              // alt="profile"
-              className="absolute bottom-[-5px] left-1/2 -translate-x-1/2 h-[120%] md:h-[130%] w-auto object-cover"
+              src="./public/me.png"
+              alt="profile"
+              className="absolute left-1/13 w-auto h-[150%] md:h-[140%] object-cover"
             />
           </div>
         </motion.div>
@@ -123,9 +123,9 @@ const About = () => {
 
             <p>
               I completed my internship at{" "}
-              <span className="font-semibold text-orange-500">WWAH.ai</span>, where I worked on
-              real-world development projects and strengthened my practical
-              skills. Currently, I am working with{" "}
+              <span className="font-semibold text-orange-500">WWAH.ai</span>,
+              where I worked on real-world development projects and strengthened
+              my practical skills. Currently, I am working with{" "}
               <span className="font-semibold">Worldwide Admission Hub</span>,
               developing web solutions that help{" "}
               <span className="font-semibold">

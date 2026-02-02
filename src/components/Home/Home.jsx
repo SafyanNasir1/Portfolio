@@ -1,20 +1,21 @@
 import React from "react";
 import insta from "../../assets/instagram.svg";
 import linkdin from "../../assets/linkdin.svg";
-import world from "../../assets/world.svg";
-import be from "../../assets/be.svg";
-// import me from "../../assets/.png";
 import cv from "../../assets/my-cv.pdf";
 import CountUp from "react-countup";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+  const nav = () =>{
+    navigate("/contact");
+  }
   const socialLinks = [
     { icon: insta, link: "https://instagram.com/safyan._.nasir" },
     { icon: linkdin, link: "https://linkedin.com/in/safyan-nasir-485a4932a" },
-    { icon: world,  },
-    { icon: be,  },
+    
   ];
 
   return (
@@ -62,6 +63,7 @@ const Home = () => {
             {/* BUTTONS */}
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-8">
               <motion.button
+              onClick={nav}
                 whileHover={{
                   y: -6,
                   scale: 1.05,
@@ -141,11 +143,11 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="w-full md:w-[45%] flex justify-center"
         >
-          <div className="relative w-[280px] h-[280px] md:w-[450px] md:h-[450px] rounded-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(148,148,148,0.4)]">
+          <div className="relative w-[280px] h-[280px] md:w-[450px] md:h-[450px] rounded-full bg-[#1b1b1b] shadow-[0_0_30px_rgba(248,108,0,0.4)] overflow-hidden">
             <img
-              // src={me}
-              // alt="profile"
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[360px] md:h-[520px] object-contain rounded-[40px]"
+              src="./public/me.png"
+              alt="profile"
+              className="w-auto h-[500px] ml-5 object-cover overflow-scroll rounded-full"
             />
           </div>
         </motion.div>
