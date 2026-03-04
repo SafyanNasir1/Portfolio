@@ -66,37 +66,6 @@ const About = () => {
           className="mt-10 md:mt-0 md:ml-10 md:w-2/3"
         >
           <div className="text-white text-lg md:text-xl space-y-4 font-medium">
-            {/* <p>
-              Hi, I'm{" "}
-              <span className="font-bold text-orange-500">Safyan Nasir</span> —
-              a MERN Stack Developer passionate about turning{" "}
-              <span className="font-semibold">
-                creative ideas into responsive and user-friendly web
-                applications
-              </span>
-              .
-            </p>
-
-            <p>
-              I have hands-on experience with{" "}
-              <span className="font-semibold">
-                MongoDB, Express.js, React, and Node.js
-              </span>
-              , building full-stack applications that are{" "}
-              <span className="font-semibold">
-                efficient, visually engaging, and impactful
-              </span>
-              .
-            </p>
-
-            <p>
-              I'm constantly learning new technologies and enjoy solving
-              real-world problems through code. Let's work together to create{" "}
-              <span className="font-bold text-orange-500">
-                innovative digital experiences
-              </span>{" "}
-              that make a difference!
-            </p> */}
             <p>
               Hi, I'm{" "}
               <span className="font-bold text-orange-500">Safyan Nasir</span> —
@@ -121,7 +90,7 @@ const About = () => {
               .
             </p>
 
-            <p>
+            {/* <p>
               I completed my internship at{" "}
               <span className="font-semibold text-orange-500">WWAH.ai</span>,
               where I worked on real-world development projects and strengthened
@@ -133,8 +102,25 @@ const About = () => {
                 processes
               </span>
               .
+            </p> */}
+            <p>
+              I completed my internship at{" "}
+              <span className="font-semibold text-orange-500">
+                HK. IT Solutions
+              </span>
+              , where I implemented dynamic CRUD functionality and applied
+              JWT-based authentication to secure user access. Currently, I am
+              working with{" "}
+              <span className="font-semibold text-orange-500">
+                Worldwide Admission Hub
+              </span>
+              , developing and optimizing web solutions that streamline{" "}
+              <span className="font-semibold">
+                international university admissions and visa documentation
+                processes
+              </span>
+              .
             </p>
-
             <p>
               I'm constantly learning new technologies and enjoy solving
               real-world problems through code. Let's work together to create{" "}
