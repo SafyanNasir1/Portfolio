@@ -102,7 +102,7 @@
                 <div className="flex gap-3">
                   {/* Live Button */}
                   <motion.a
-                    // href={project.live ? project.live : "#"}
+                    href={project.live ? project.live : "#"}
                     target="_blank"
                     rel="noreferrer"
                     className="px-4 py-2 bg-[#f86c00] text-white rounded hover:bg-orange-600 transition"
