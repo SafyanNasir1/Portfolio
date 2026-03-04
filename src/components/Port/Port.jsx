@@ -12,8 +12,8 @@
         "A full-stack hotel booking web application that allows users to browse hotels, check availability, and make reservations.",
       tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       image: Hotel,
-      live: "#",
-      github: "https://github.com/SafyanNasir1/Final-Project",
+      live: "https://safyan-suites.vercel.app/",
+      github: "https://github.com/SafyanNasir1/Hotel-Frontend",
     },
     {
       title: "Personal Portfolio Website",
