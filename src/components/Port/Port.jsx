@@ -13,7 +13,7 @@
       tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       image: Hotel,
       live: "https://safyan-suites.vercel.app/",
-      github: "https://github.com/SafyanNasir1/Hotel-Frontend",
+      github: "",
     },
     {
       title: "Personal Portfolio Website",
