@@ -140,7 +140,7 @@ const Contact = () => {
 
         {/* BUTTON */}
           <div className="flex justify-center md:justify-end pt-2">
-            {isFormValid && (
+            
               <motion.button
                 whileHover={{
                   y: -4,
@@ -153,7 +153,7 @@ const Contact = () => {
               >
                 SEND MESSAGE
               </motion.button>
-            )}
+            
           </div>
         
       </motion.form>
