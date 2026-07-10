@@ -33,7 +33,7 @@ function App() {
       <ScrollToSection>
 
         {/* Sections with IDs */}
-        <div id="/">
+        <div id="">
         <Navbar />
           <Home />
         </div>

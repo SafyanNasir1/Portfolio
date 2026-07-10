@@ -86,7 +86,7 @@ const Navbar = () => {
               animate={{ y: 0 }}
               exit={{ y: "-100%" }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 bg-[#f86c00]-100/95 flex flex-col items-center justify-center gap-6 z-20 backdrop-blur-sm"
+              className="fixed inset-0 bg-[#f86c00]/95 flex flex-col items-center justify-center gap-6 z-20 backdrop-blur-sm"
             >
               {menuItems.map((item, i) => (
                 <NavLink

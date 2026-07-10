@@ -4,6 +4,7 @@
 
 
 
+
 @layer base {
   body {
     @apply  bg-[#121212]; /* body ka background black aur text white */
