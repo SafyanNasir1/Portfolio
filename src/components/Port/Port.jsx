@@ -2,6 +2,7 @@
   import { motion } from "framer-motion";
 
   import Hotel from "../../assets/hotel.PNG";
+  import Herbal from "../../assets/herbal.PNG";
   import Matias from "../../assets/matias.PNG";
   import Digital from "../../assets/digital.PNG";
 
@@ -14,6 +15,15 @@
       image: Hotel,
       live: "https://safyan-suites.vercel.app/",
       github: "https://github.com/SafyanNasir1/Hotel",
+    },
+    {
+      title: "Herbal Store Web Application",
+      description:
+        "A Mern-Stack Responsive Herbal store web application that allows users to browse products, and make purchases.",
+      tech: ["Next.js", "Tailwind CSS"],
+      image: Herbal,
+      live: "https://herbal-nature.vercel.app/",
+      github: "",
     },
     {
       title: "Personal Portfolio Website",
